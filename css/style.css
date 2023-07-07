@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   background-color: #1abc9c;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.head{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin-bottom: 1.2rem;
+}
+.form{
+    color: #1abc9c;
+    background-color: #ffffff;
+    padding: 3.5rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 500px;
+}
+.btn{
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 9px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+    margin-top: 1.4rem;
+}
+.btn:hover{
+   transform: translatey(-3px);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+label{
+    margin-top: 0.8rem;
+}
+form input{
+    outline: none;
+    border: none;
+    border-bottom: #c7c7c7 solid 1px;
+    margin-bottom: 0rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    padding: 0.5rem;
+    width: 16rem;
+}
+.formdesign{
+    display: flex;
+    flex-direction: column;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+form input::placeholder{
+    color: rgb(161, 161, 161);
+}
+.formerror{
+    color: rgb(252, 49, 49);
+    padding: 0 1rem;
+}
+
